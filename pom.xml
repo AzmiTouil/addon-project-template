@@ -44,7 +44,7 @@
     <url>https://github.com/exo-addons/@@@git_project@@@</url>
   </scm>
   <properties>
-    <platform.version>@@@platform_version@@@</platform.version>
+    <platform.version>5.0.2</platform.version>
   </properties>
   <dependencyManagement>
     <dependencies>
