@@ -25,6 +25,12 @@
 	<component>
 			<key>org.exoplatform.addons.MyService</key>
 			<type>org.exoplatform.addons.MyService</type>
+
+	</component>
+
+	<component>
+		<key>org.exoplatform.addons.Myser</key>
+		<type>org.exoplatform.addons.Myser</type>
 	</component>
 
 </configuration>
