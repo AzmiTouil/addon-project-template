@@ -22,5 +22,40 @@
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd http://www.exoplatform.org/xml/ns/kernel_1_2.xsd"
 	xmlns="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd">
+	<component>
+		<key>org.exoplatform.addons.MyService</key>
+		<type>org.exoplatform.addons.MyService</type>
+	</component>
 
+	<component>
+		<key>org.exoplatform.addons.Myser</key>
+		<type>org.exoplatform.addons.Myser</type>
+	</component>
+
+    <component>
+        <key>org.exoplatform.addons.FavActivityDAO</key>
+        <type>org.exoplatform.addons.FavActivityDAO</type>
+    </component>
+
+    <component>
+        <key>org.exoplatform.addons.FavActivityDaoImpl</key>
+        <type>org.exoplatform.addons.FavActivityDaoImpl</type>
+    </component>
+
+    <component>
+        <key>org.exoplatform.addons.FavouriteActivityEntity</key>
+        <type>org.exoplatform.addons.FavouriteActivityEntity</type>
+    </component>
+    <component>
+        <key>org.exoplatform.addons.Testdb</key>
+        <type>org.exoplatform.addons.Testdb</type>
+    </component>
+
+	<component>
+		<type>org.exoplatform.commons.persistence.impl.EntityManagerService</type>
+	</component>
+
+    <component>
+        <type>org.exoplatform.addons.service.MyRESTService</type>
+    </component>
 </configuration>

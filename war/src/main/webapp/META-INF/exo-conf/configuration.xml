@@ -46,9 +46,10 @@
           <field name="dependencies">
             <collection type="java.util.ArrayList">
               <value>
-                <string>@@@artifactId@@@</string>
+                <string>training-extension</string>
               </value>
             </collection>
+
           </field>
           <!-- The name of the target dependency -->
           <field name="target">

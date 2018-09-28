@@ -26,16 +26,16 @@
     <groupId>org.exoplatform.addons</groupId>
     <version>6</version>
   </parent>
-  <groupId>@@@groupId@@@</groupId>
-  <artifactId>@@@artifactId@@@</artifactId>
+  <groupId>org.exoplatform.platform</groupId>
+  <artifactId>platform</artifactId>
   <version>1.0.x-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>@@@name@@@</name>
-  <description>@@@description@@@</description>
+  <name>addon</name>
+  <description>description</description>
   <modules>
     <module>services</module>
-    <module>war</module>
     <module>packaging</module>
+    <module>war</module>
   </modules>
   <scm>
     <connection>scm:git:git://github.com/exo-addons/@@@git_project@@@.git</connection>
@@ -52,7 +52,7 @@
       <dependency>
         <groupId>org.exoplatform.platform</groupId>
         <artifactId>platform</artifactId>
-        <version>${platform.version}</version>
+        <version>5.0.2</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
